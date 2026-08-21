@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesús Cárdenas — Portafolio</title>
+  <meta name="description" content="Portafolio de Jesús Cárdenas, estudiante de Ingeniería en Informática en Duoc UC, Puerto Montt.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand">Jesús Cárdenas</a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section id="inicio" class="hero">
+      <div class="container hero-inner reveal">
+        <button type="button" class="hero-photo-btn" data-reveal-target="photo-lightbox" aria-controls="photo-lightbox" aria-expanded="false" aria-label="Ampliar fotografía de Jesús Cárdenas">
+          <img src="assets/profile.jpg" alt="Fotografía de Jesús Cárdenas" class="hero-photo" width="160" height="160">
+        </button>
+        <h1 class="hero-name">Jesús Cárdenas</h1>
+        <p class="hero-title">Estudiante de Ingeniería en Informática</p>
+        <p class="hero-tagline">Full Stack Developer en formación</p>
+        <p class="hero-meta">Puerto Montt, Los Lagos, Chile · Duoc UC — 2° año</p>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <div class="container reveal">
+        <h2 class="section-title"><span class="prompt" aria-hidden="true">$</span> sobre-mi</h2>
+        <p class="about-text">
+          Soy estudiante de Ingeniería en Informática, actualmente cursando mi segundo año en Duoc UC,
+          Puerto Montt. Aprendo rápido y disfruto trabajar en equipo, siempre con respeto y disciplina.
+          Me interesa el desarrollo full stack, la nube y las bases de datos, y estoy constantemente
+          ampliando lo que sé — hoy en día profundizando en desarrollo web y móvil. Me gusta hacer las
+          cosas bien y aportar valor real en cada proyecto en el que participo.
+        </p>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section section-alt">
+      <div class="container reveal">
+        <h2 class="section-title"><span class="prompt" aria-hidden="true">$</span> habilidades</h2>
+        <div class="skills-group">
+          <h3 class="skills-label">Dominio actual</h3>
+          <ul class="chip-list" role="list">
+            <li class="chip">Python</li>
+            <li class="chip">Java (Spring Boot)</li>
+            <li class="chip">Bases de datos (SQL / Oracle PL-SQL)</li>
+            <li class="chip">Inteligencia Artificial</li>
+            <li class="chip">Agentes de IA</li>
+            <li class="chip">Claude (Anthropic)</li>
+            <li class="chip">AWS</li>
+            <li class="chip">Cloud Computing</li>
+            <li class="chip">Docker</li>
+            <li class="chip">Git / GitHub</li>
+            <li class="chip">Full Stack I</li>
+            <li class="chip">Inglés intermedio</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h3 class="skills-label">Actualmente aprendiendo</h3>
+          <ul class="chip-list" role="list">
+            <li class="chip chip-learning">HTML / CSS / JavaScript</li>
+            <li class="chip chip-learning">Kotlin</li>
+            <li class="chip chip-learning">Seguridad informática</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container reveal">
+        <h2 class="section-title"><span class="prompt" aria-hidden="true">$</span> proyectos</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <h3 class="project-name">Agente IA para Vulcanización</h3>
+            <p class="project-desc">
+              Agente conversacional educativo construido en Python, usando function calling de OpenAI,
+              aplicado a un caso real: el taller de vulcanización y reparación de neumáticos de mi familia.
+              El agente puede diagnosticar problemas en neumáticos, consultar stock y registrar servicios.
+            </p>
+            <ul class="project-stack" role="list">
+              <li>Python</li>
+              <li>OpenAI API</li>
+              <li>Jupyter Notebook</li>
+            </ul>
+            <a class="project-link" href="https://github.com/jesuscardenas-jacv1/Chat_Con_ia" target="_blank" rel="noopener noreferrer">Ver en GitHub<span aria-hidden="true"> →</span></a>
+          </article>
+
+          <article class="project-card">
+            <h3 class="project-name">BancoApp — Sistema Bancario en Kotlin</h3>
+            <p class="project-desc">
+              Aplicación de consola en Kotlin que modela un sistema bancario mediante programación
+              orientada a objetos, incluyendo una clase <code>CuentaJoven</code> que extiende
+              <code>CuentaBancaria</code>, aplicando herencia, encapsulamiento y polimorfismo.
+            </p>
+            <ul class="project-stack" role="list">
+              <li>Kotlin</li>
+              <li>IntelliJ IDEA</li>
+              <li>POO</li>
+            </ul>
+            <a class="project-link" href="https://github.com/jesuscardenas-jacv1" target="_blank" rel="noopener noreferrer">Ver en GitHub<span aria-hidden="true"> →</span></a>
+          </article>
+
+          <article class="project-card">
+            <h3 class="project-name">App de Gestión de Reparto — Microservicios</h3>
+            <p class="project-desc">
+              Proyecto en equipo que implementa una arquitectura de microservicios para la gestión de
+              repartos, con servicios independientes para clientes y ventas, desarrollado con Spring Boot.
+            </p>
+            <ul class="project-stack" role="list">
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>JPA</li>
+              <li>Microservicios</li>
+            </ul>
+            <a class="project-link" href="#">Ver en GitHub<span aria-hidden="true"> →</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section-alt">
+      <div class="container contact-inner reveal">
+        <h2 class="section-title"><span class="prompt" aria-hidden="true">$</span> contacto</h2>
+        <p class="contact-text">
+          ¿Interesado en mi perfil o quieres conversar sobre un proyecto? Estoy disponible para
+          prácticas, colaboraciones y nuevas oportunidades.
+        </p>
+        <ul class="contact-links" role="list">
+          <li>
+            <a href="mailto:jesuscardenas.jacv1@gmail.com" class="contact-icon" data-reveal-target="email-reveal" aria-controls="email-reveal" aria-expanded="false" aria-label="Mostrar correo de Jesús Cárdenas">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a.966.966 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/56999691060" class="contact-icon" data-reveal-target="whatsapp-reveal" aria-controls="whatsapp-reveal" aria-expanded="false" aria-label="Mostrar teléfono de Jesús Cárdenas">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jesuscardenas-jacv1" class="contact-icon" data-reveal-target="github-reveal" aria-controls="github-reveal" aria-expanded="false" aria-label="Mostrar perfil de GitHub de Jesús Cárdenas">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jesus-cardenas-61993742b/" class="contact-icon" data-reveal-target="linkedin-reveal" aria-controls="linkedin-reveal" aria-expanded="false" aria-label="Mostrar perfil de LinkedIn de Jesús Cárdenas">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="contact-reveal" id="email-reveal" hidden>
+          <span class="reveal-text">jesuscardenas.jacv1@gmail.com</span>
+          <button type="button" class="btn btn-secondary btn-copy" data-copy="jesuscardenas.jacv1@gmail.com">Copiar</button>
+        </p>
+        <p class="contact-reveal" id="whatsapp-reveal" hidden>
+          <span class="reveal-text">+56 9 9969 1060</span>
+          <button type="button" class="btn btn-secondary btn-copy" data-copy="+56999691060">Copiar</button>
+        </p>
+        <p class="contact-reveal" id="linkedin-reveal" hidden>
+          <span class="reveal-text">linkedin.com/in/jesus-cardenas-61993742b</span>
+          <button type="button" class="btn btn-secondary btn-copy" data-copy="https://www.linkedin.com/in/jesus-cardenas-61993742b/">Copiar</button>
+        </p>
+        <p class="contact-reveal" id="github-reveal" hidden>
+          <span class="reveal-text">github.com/jesuscardenas-jacv1</span>
+          <button type="button" class="btn btn-secondary btn-copy" data-copy="https://github.com/jesuscardenas-jacv1">Copiar</button>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Jesús Cárdenas — Puerto Montt, Chile</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="photo-lightbox" hidden>
+    <img src="assets/profile.jpg" alt="Fotografía ampliada de Jesús Cárdenas" class="lightbox-img">
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
