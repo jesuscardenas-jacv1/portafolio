@@ -5,10 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jesús Cárdenas — Portafolio</title>
   <meta name="description" content="Portafolio de Jesús Cárdenas, estudiante de Ingeniería en Informática en Duoc UC, Puerto Montt.">
+  <meta name="theme-color" content="#0B0D12">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jesús Cárdenas — Portafolio">
+  <meta property="og:description" content="Portafolio de Jesús Cárdenas, estudiante de Ingeniería en Informática en Duoc UC, Puerto Montt.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%230B0D12%22/><text x=%2232%22 y=%2245%22 font-family=%22Arial,Helvetica,sans-serif%22 font-size=%2234%22 font-weight=%22700%22 fill=%22%23D9A441%22 text-anchor=%22middle%22>JC</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <noscript>
+    <style>
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    </style>
+  </noscript>
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
@@ -38,6 +51,10 @@
         <p class="hero-title">Estudiante de Ingeniería en Informática</p>
         <p class="hero-tagline">Full Stack Developer en formación</p>
         <p class="hero-meta">Puerto Montt, Los Lagos, Chile · Duoc UC — 2° año</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos<span aria-hidden="true"> →</span></a>
+          <a class="btn btn-secondary" href="#contacto">Contáctame</a>
+        </div>
       </div>
     </section>
 
@@ -101,23 +118,9 @@
               <li>Python</li>
               <li>OpenAI API</li>
               <li>Jupyter Notebook</li>
+              <li>AWS</li>
             </ul>
             <a class="project-link" href="https://github.com/jesuscardenas-jacv1/Chat_Con_ia" target="_blank" rel="noopener noreferrer">Ver en GitHub<span aria-hidden="true"> →</span></a>
-          </article>
-
-          <article class="project-card">
-            <h3 class="project-name">BancoApp — Sistema Bancario en Kotlin</h3>
-            <p class="project-desc">
-              Aplicación de consola en Kotlin que modela un sistema bancario mediante programación
-              orientada a objetos, incluyendo una clase <code>CuentaJoven</code> que extiende
-              <code>CuentaBancaria</code>, aplicando herencia, encapsulamiento y polimorfismo.
-            </p>
-            <ul class="project-stack" role="list">
-              <li>Kotlin</li>
-              <li>IntelliJ IDEA</li>
-              <li>POO</li>
-            </ul>
-            <a class="project-link" href="https://github.com/jesuscardenas-jacv1" target="_blank" rel="noopener noreferrer">Ver en GitHub<span aria-hidden="true"> →</span></a>
           </article>
 
           <article class="project-card">
@@ -132,7 +135,7 @@
               <li>JPA</li>
               <li>Microservicios</li>
             </ul>
-            <a class="project-link" href="#">Ver en GitHub<span aria-hidden="true"> →</span></a>
+            <a class="project-link" href="https://github.com/KanninoX/APP_Reparto" target="_blank" rel="noopener noreferrer">Ver en GitHub<span aria-hidden="true"> →</span></a>
           </article>
 
         </div>
@@ -144,7 +147,7 @@
         <h2 class="section-title">Contacto</h2>
         <p class="contact-text">
           ¿Interesado en mi perfil o quieres conversar sobre un proyecto? Estoy disponible para
-          prácticas, colaboraciones y nuevas oportunidades.
+          prácticas y colaboraciones.
         </p>
         <ul class="contact-links" role="list">
           <li>

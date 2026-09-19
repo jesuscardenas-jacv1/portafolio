@@ -53,9 +53,7 @@
           button.textContent = 'Copiar';
         }, 2000);
       };
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(value).then(markCopied);
-      } else {
+      var fallbackCopy = function () {
         var temp = document.createElement('textarea');
         temp.value = value;
         temp.setAttribute('readonly', '');
@@ -66,6 +64,11 @@
         document.execCommand('copy');
         document.body.removeChild(temp);
         markCopied();
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(value).then(markCopied).catch(fallbackCopy);
+      } else {
+        fallbackCopy();
       }
     });
   });
